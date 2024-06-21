@@ -1,0 +1,19 @@
+section{
+   background-color: lightgrey;
+   color: black;
+   width: 400px;
+   border: rgb(0,0,0) 1px solid;
+   margin: 1px;
+   padding: 1px
+}
+article{
+    background-color: lightgrey;
+    color: black;
+    width: 400px;
+    border: rgb(0,0,0) 1px solid;
+    margin: 1px;
+    padding: 1px
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
