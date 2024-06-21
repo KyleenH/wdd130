@@ -10,7 +10,7 @@ nav a {
 h1 {
     color:steelblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -18,7 +18,8 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
+    max-width: 1000px;
 }
 
 body {
@@ -26,4 +27,27 @@ body {
 }
 h1 {
     font-family: Georgia
+}
+main{
+    max-width: 1000px;
+}
+aside{
+    background-color: lightblue;
+    color: black;
+    width: 20rem;
+    border: rgb(0, 0, 0,0.1) 1px solid;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+footer{
+    display: block;
+    border-top: solid black 1px;
+    padding-top: 1px;
+    text-align: right;
+    font-size: small;
 }
