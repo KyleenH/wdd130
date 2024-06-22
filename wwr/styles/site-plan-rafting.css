@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Oswalddisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Oswald&display=swap');
 body{
     font-family: var(--Oswald);
     max-width: 960px;
