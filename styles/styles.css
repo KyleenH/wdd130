@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: steelblue;
+    background-color: rgb(81, 122, 81);
     padding: 10px;
 }
 nav a {
@@ -13,7 +13,7 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color:steelblue;
+    color:rgb(81,122,81);
 }
 main img {
     width: 150px;
@@ -61,6 +61,7 @@ footer {
     margin: 1rem;
     border: 1px rgba(0,0,0,.1) solid;
     padding: 1rem;
-    color: black;
-    background-color: lightblue;
+    color: white;
+    background-color: rgb(148, 187, 148)
 }
+
