@@ -39,10 +39,11 @@ main {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
 aside h2{
     position: absolute;
-    right: 1180px;
+    right: 95px;
 
 }
 aside img {
