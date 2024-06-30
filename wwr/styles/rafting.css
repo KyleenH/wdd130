@@ -15,12 +15,14 @@
     max-width: 960px;
     padding: 20px;
 }
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
-p{
+.hero p{
     padding: 25px;
+    width: 1400px;
+    font-size: large;
 }
 body{
     font-family: var(--Oswald);
@@ -30,15 +32,48 @@ body{
 div {
     position: relative;
 }
-h1{
+.hero h1{
     position: absolute;
+    background-color: white;
+    width: 1400px;
+    padding: 3px;
+    opacity: .75;
+    color: black;
+    top: 200px;
+    text-justify: center;
+    text-align: center;
+    font-size: xx-large;
 }
-article{
+.hero article{
     position: absolute;
+    background-color: white;
+    align-self: center;
+    opacity: .75;
+    width: 1400px;
+    top: 850px;
+    left: 0px;
+    right: 100px;
+    font-size: x-large;
 }
+
 .hero img{
+    position: relative;
     display: block;
-    width: 100%;
+    width: 1400px;
     height: auto;
+}
+/*article img{
+    position: relative;
+    font-size: larger;
+    background-color: #fefefe;
+    opacity: 1.5;
+    justify-content: right;
+}*/
+.hero article img{
     float: right;
+    align-self: center;
+    width: 250px;
+    padding: 3px;
+    right: 50px;
+
 }
