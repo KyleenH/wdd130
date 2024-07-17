@@ -111,7 +111,7 @@ footer {
     grid-template-columns: 300px 1200px;*/
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     padding: 2rem;
     font-size: large;
     width: 1250px;
@@ -122,13 +122,13 @@ footer nav a img {
     text-align: left;
     text-decoration: none;
     display: grid;
-    grid-column: 1fr;
+    grid-column: 1;
 
 }
 .adventure h1{
     text-align: left;
     padding: 2rem 0;
-    width: 1300;
+    width: 1300px;
 }
 .adventure div {
     display: flex;
