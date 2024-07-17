@@ -143,7 +143,7 @@ footer nav a img {
 }
 .adventure figure img {
     max-height: 200px;
-    grid-column: 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 1 1 1 1 1;
 }
 .adventure figcaption {
     background-color: #326E8B;
