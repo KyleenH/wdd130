@@ -371,3 +371,44 @@ th, td {
     grid-column: 1/3;
     grid-row: 5;
 }
+.text_home {
+    grid-column: span 3;
+    grid-row: 2;
+}
+.img1_home {
+    grid-column: 1;
+    grid-row: 3;
+}
+.img2_home {
+    grid-column: 2;
+    grid-row: 3;
+}
+.img3_home {
+    grid-column: 3;
+    grid-row: 3;
+}
+.grid_home {
+    display: grid;
+    grid-template-columns: 550px 550px 550px;
+    grid-template-rows: 75px 150px 1fr;
+    gap: 2px;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 2px;
+}
+.form-items {
+    display: grid;
+    align-items: center;
+    color: black;
+}
+.home_form {
+    margin-left: 200px;
+    width: 1500px;
+}
+.home_form p {
+    width: 1000px;
+}
+.text_home {
+    display: flex;
+    align-items: center;
+}
